@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
-CODENAME LIST (Updated as of 08-20-26)
+CODENAME LIST (Updated as of 08-21-26)
 ----------------------------------------------------------------
 # EXPLANATION:
 # When using Option 1 of the script, it renames wems from the Media folder and organzies them into folders.
@@ -29,13 +29,15 @@ CODENAME LIST (Updated as of 08-20-26)
 
 /-----------------------------------------CHARACTERS - MAIN CAST (ALPHABETICAL ORDER)/
 
+AAA: SYSTEM - Narrator (MASC) (AAA)
+BBB: SYSTEM - Narrator (FEM) (BBB)
 CMN: SYSTEM - Game (CMN)
+
 ATN: CHARA - Captain America (ATN)
 BKN: CHARA - Peni Parker (BKN)
 CBN: CHARA - Promotor (CBN)
 DSN: CHARA - Carnage (DSN)
 ESB: CHARA - Champion (Battle) (ESB)
-ESN: CHARA - Champion (Normal) (ESN)
 GSN: CHARA - Star Lord	(GSN)
 IKN: CHARA - Loki (IKN)
 JAN: CHARA - Danger (JAN)
