@@ -52,6 +52,24 @@ NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 0.1.2 (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
+### 
+
+For General
+
+For SDKT
+- Added `~mods-AUDIO` output option
+  - Users can now setup the path to their Tokon `Paks` folder and have Option 2 automatically send pakd audio files there
+  
+- Added Vorbis wem creation streamlining (Uhhh go steal the wording from the soundKit_MR page lol dont feel liek typing all that shit again)
+- Combined Test and Silent Option into one main menu option -> two sub-options  
+- Uhhhh....and some other shit
+- Kinda just porting over the Rivals beta soundKit features cause I cant let yall live in poverty any longer lol
+
+NOTE: This is NOT heavily tested! 
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
