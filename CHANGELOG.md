@@ -51,6 +51,10 @@ UPDATE 0.1.1 (08-21-2026) (NOT RELEASED YET, `BUG TESTING`)
   - Voice .wems will now have `(VO)` added to their filenames
   - Sound Effect .wems will now have `(SE)` added to their filenames
   - Music .wems will now have `(BGM)` added to their filenames
+
+- Adjusted Option 2 to auto-proceed with all paking queues
+  - Basically you dont need to close the UnrealPak CMD window anymore cause it doesnt even show up anymore
+  - The scripts Powershell terminal will let you know when all the files are done being packed
   
 - Added Option 102
   - This option allows users to search all jsons for wem IDs or text strings
