@@ -19,13 +19,18 @@ For General
 ## IMPORTANT
 - If you setup soundKit_MT v0.1.0 already, follow these steps
   - Clear out your `soundKit_MT\1-RENAMED-Media-Wems-Here`, `soundKit_MT\0_DATA\0-MEDIA`, and `soundKit_MT\\0_DATA\0-JSONS` folders before proceeding
-  - Extract `MTFS\Content\Audio/Media` as audio (this may take a bit). Place the extracted `Audio` folder into `soundKit_MT\0_DATA\0-MEDIA`
-  - Extract `MTFS\Content\LocalizeText` as json. Place the extracted `LocalizeText` folder into `soundKit_MT\0_DATA\0-JSONS`
   - Extract `MTFS\Content\Chara` as json (this WILL take a bit). Place the extracted `Chara` folder into `soundKit_MT\0_DATA\0-JSONS`
     - As stated, this WILL take quite a while, maybe like 5-15 minutes
-    - If you just want to grab a specific character go to this path: `MTFS/Content/Chara/<CHARA_ID>/Common/Audio`
+    - If you just want to instead just grab a specific character go to this path: `MTFS/Content/Chara/<CHARA_ID>/Common/Audio`
     - Extract that `Audio` folder as json. Place the extracted `Chara` folder into `soundKit_MT\0_DATA\0-JSONS`
+  - Extract `MTFS\Content\LocalizeText` as json. Place the extracted `LocalizeText` folder into `soundKit_MT\0_DATA\0-JSONS`
   - Extract `MTFS\Content\Audio\BGM` as json. Place the extracted `Audio` folder into `soundKit_MT\0_DATA\0-JSONS`
+  - Extract `MTFS\Content\Audio\Lobby` as json. Place the extracted `Audio` folder into `soundKit_MT\0_DATA\0-JSONS`
+  - Extract `MTFS\Content\Audio\Media` as audio (this may take a bit). Place the extracted `Audio` folder into `soundKit_MT\0_DATA\0-MEDIA`
+  - Extract `MTFS\Content\Audio\Narration` as json. Place the extracted `Audio` folder into `soundKit_MT\0_DATA\0-JSONS`
+  - Extract `MTFS\Content\Audio\OptionMenu` as json. Place the extracted `Audio` folder into `soundKit_MT\0_DATA\0-JSONS`
+  - Extract `MTFS\Content\Audio\Ringcall` as json. Place the extracted `Audio` folder into `soundKit_MT\0_DATA\0-JSONS`
+  - Extract `MTFS\Content\Audio\StartupBattle` as json. Place the extracted `Audio` folder into `soundKit_MT\0_DATA\0-JSONS`
 
 For SDKT
 - Added auto-sorting of eligible .wem files in `1-RENAMED-Media-Wems-Here\zzz_UNSORTED` based on updated data in `\0_DATA\0-TXTs\0-CHARACTER-ID-LIST.txt` to script startup
