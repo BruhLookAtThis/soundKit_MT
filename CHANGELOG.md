@@ -44,6 +44,10 @@ UPDATE 0.1.1 (08-21-2026) (NOT RELEASED YET, `BUG TESTING`)
   
 - Added far more files to Option 1 sorting algorithm
   - Option 1 can now sort Sound Effects, Music, and additional character voices (Ringcalls, Narrators, etc)
+    - NOTE: Modding Music is still a mess, as far as I am concerned
+    - This script will organize the music files for you, but from there, its uncharted territory
+    - I personally avoid modding in Unreal Engine games because I have never had a smooth experience with that
+    - I also listen to Spotify when I game, so I have almost zero interest in modding music anyway
   - Voice .wems will now have `(VO)` added to their filenames
   - Sound Effect .wems will now have `(SE)` added to their filenames
   - Music .wems will now have `(BGM)` added to their filenames
