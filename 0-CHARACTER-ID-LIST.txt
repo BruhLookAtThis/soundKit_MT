@@ -1,0 +1,52 @@
+----------------------------------------------------------------
+CODENAME LIST (Updated as of 9-14-25)
+----------------------------------------------------------------
+# EXPLANATION:
+# When using Option 1 of the script, it renames wems from the Media folder and organzies them into folders.
+# This file determines what key terms in filenames are matched to which folders
+# Below, you will see terms like "ATN" behind colons
+# That is the term that the script will look for in the file name 
+# On the other side of the colon, you will see stuff like "CHARA - Loki (IKN)"
+# That will be the name of the folder in which files with that term in their name will be placed 
+# So a file that has "ATN" in it's name will be placed into the "CHARA - Captain America (ATN)" folder 
+# Simple enough (hopefully)
+# You can add your own terms and folder names easily, just follow the same exact structure 
+# If you want, you can change these pre-existing terms/folder names, but I do not recommend that 
+
+# If you haven't noticed, some of these sentences have started with a hashtag
+# That is because the script will ignore lines that start with a hashtag /EVEN IF that line includes a colon/
+# This allows you to make notes underneath entries in case you want to...well, leave a note lol
+# Technically, the script will ignore ANY line /that DOESN'T contain a colon/
+# But the hashtag adds that one extra bit of ignoring to the script's logic 
+# But yeah, that's about all that needs to be explained. Have fun modding!
+# Oh, one more thing 
+# The WEM-ID-CHART.txt has a list of all renamed wems next to their original wem ID number
+# You can use that for reference or whatever. Also, Option 102 of the script will utilize that txt for searches
+
+----------------------------------------------------------------
+# NOTE:
+# No notes for now, actually
+
+/-----------------------------------------CHARACTERS - MAIN CAST (ALPHABETICAL ORDER)/
+
+ATN: CHARA - Captain America (ATN)
+BKN: CHARA - Peni Parker (BKN)
+DSN: CHARA - Carnage (DSN)
+ESB: CHARA - Champion (ESB)
+GSN: CHARA - Star Lord	(GSN)
+IKN: CHARA - Loki (IKN)
+JAN: CHARA - Danger (JAN)
+JKN: CHARA - Magneto (JKN)
+LKN: CHARA - Doctor Doom (LKN)
+MGN: CHARA - Hulk (MGN)
+MSN: CHARA - Ms. Marvel (MSN)
+OSN: CHARA - Green Goblin (OSN)
+OYN: CHARA - Deadpool (OYN)
+RSN: CHARA - Magik (RSN)
+SAN: CHARA - Ghost Rider (SAN)
+SRN: CHARA - Spider-Man (SRN)
+TIN: CHARA - Black Panther (TIN)
+TMN: CHARA - Storm (TMN)
+TSN: CHARA - Iron Man (TSN)
+VNN: CHARA - Blade (VNN)
+ZAN: CHARA - Wolverine (ZAN)
