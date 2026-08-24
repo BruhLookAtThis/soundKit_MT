@@ -27,18 +27,18 @@ CODENAME LIST (Updated as of 08-21-26)
 # NOTE:
 # No notes for now, actually
 
-/-----------------------------------------CHARACTERS - MAIN CAST (ALPHABETICAL ORDER)/
+/-----------------------------------------SYSTEM (ALPHABETICAL ORDER)/
 
 AAA: SYSTEM - Narrator (MASC) (AAA)
 BBB: SYSTEM - Narrator (FEM) (BBB)
 CMN: SYSTEM - Game (CMN)
 
+/-----------------------------------------PLAYABLE CHARACTERS (ALPHABETICAL ORDER)/
+
 ATN: CHARA - Captain America (ATN)
 BKN: CHARA - Peni Parker (BKN)
-CBN: CHARA - Promotor (CBN)
 DSN: CHARA - Carnage (DSN)
 ESB: CHARA - Champion (Battle) (ESB)
-ESN: CHARA - Champion (Normal) (ESN)
 GSN: CHARA - Star Lord	(GSN)
 IKN: CHARA - Loki (IKN)
 JAN: CHARA - Danger (JAN)
@@ -56,3 +56,110 @@ TMN: CHARA - Storm (TMN)
 TSN: CHARA - Iron Man (TSN)
 VNN: CHARA - Blade (VNN)
 ZAN: CHARA - Wolverine (ZAN)
+
+/-----------------------------------------NPCS (ALPHABETICAL ORDER)/
+
+CBN: NPC - Promotor (CBN)
+ESN: NPC - Champion (Normal) (ESN)
+DFN: NPC - Groot	(DFN)
+DSH: NPC - Carnage Assemble	(DSH)
+GSM: NPC - Star Lord Assemble (GSM)
+LKB: NPC - Doombot (LKB)
+OYA: NPC - Deadpool Head	(OYA)
+OYD: NPC - Deadpool Dog (OYD)
+OYI: NPC - Deadpool Shark	(OYI)
+OYK: NPC - Deadpool Kid (OYK)
+OYL: NPC - Female Deadpool (OYL)
+RSA: NPC - Magik Assemble Serpent (RSA)
+RSD: NPC - Magik Darkchylde	(RSD)
+SAA: NPC - Ghost Rider Assemble (SAA)
+SAK: NPC - Ghost Rider's Car (SAK)
+TIS: NPC - Black Panther's Assemble (TIS)
+TSK: NPC - Champion Buster	(TSH)
+
+/-----------------------------------------MAPS (ALPHABETICAL ORDER)/
+
+BAA: MAP - Champion's Arena (BAA)
+BAB: MAP - Destroyed Arena (BAB)
+CTT: MAP - Knowhere (CTT)
+KSM: MAP - Asgard (KSM)
+MKG: MAP - X-Mansion	(MKG)
+NID: MAP - Savage Land	(NID)
+NNT: MAP - New York Night (NNT)
+NYC: MAP - New York Day (NYC)
+VCO: MAP - Wakanda	(VCO)
+
+/-----------------------------------------MOB CHARACTERS (ALPHABETICAL ORDER)/
+
+BAP: MOB CHARA - Promoter	(BAP)
+CTC: MOB CHARA - Cosmo (CTC)
+KSD: MOB CHARA - Heimdall (KSD)
+KSF: MOB CHARA - Frigga (KSF)
+KSG: MOB CHARA - Volstagg (KSG)
+KSH: MOB CHARA - Hogun	(KSH)
+KSL: MOB CHARA - Fandral	(KSL)
+KSN - NULL
+KSO: MOB CHARA - Odin (KSO)
+KSP: MOB CHARA - Pegasus	(KSP)
+KSS: MOB CHARA - Sif	(KSS)
+KSV: MOB CHARA - Valkyrie (KSV)
+Destroyer	KSY
+Angel	MCA
+Beast	MCB
+Colossus	MCC
+Gambit	MCG
+Iceman	MCI
+Nightcrawler	MCN
+Psylocke	MCP
+Rogue	MCR
+Sentinel	MCS
+Xavier	MCX
+Euoplocephalus (Dinosaur)	NIA
+Brachiosaurus	NIB
+Savage Land BG Animal	NIE
+Savage Land BG Animal	NIG
+Savage Land BG Animal	NIH
+Savage Land BG Animal	NIK
+Savage Land BG Animal	NIN
+Savage Land BG Animal	NIP
+Savage Land BG Animal	NIR
+Savage Land BG Animal	NIS
+Savage Land BG Animal	NIY
+Savage Land BG Animal	NIZ
+Soldier NYC Night 1	NNA
+Bullseye	NNB
+Soldier NYC Night 2	NNC
+Daredevil	NND
+Howard	NNH
+MJ	NNM
+She-Hulk	NNS
+Bystander NYC 1	NYA
+Bystander NYC 2	NYB
+Bystander NYC 3	NYC
+Bystander NYC 4	NYD
+Bystander NYC 5	NYE
+Bystander NYC 6	NYF
+Bystander NYC 7	NYG
+Bystander NYC 8	NYH
+Bystander NYC 9	NYI
+Bystander NYC 10	NYJ
+New York Items	NYN
+Gargantos/Shuma-Gorath	NYS
+Soldier 1	NYT
+Gloves	NYV
+Pidgeon	NYW
+Wakanda Bystander 1	VCA
+Wakanda Bystander 2	VCB
+Wakanda Bystander 3	VCC
+Wakanda Bystander 4	VCD
+Wakanda Bystander 5	VCE
+Wakanda Bystander 6	VCF
+Wakanda Bystander 7	VCG
+Wakanda Bystander 8	VCH
+Wakanda Bystander 9	VCI
+Wakanda Bystander 10	VCJ
+Wakanda Bystander 11	VCK
+Wakanda Bystander 12	VCL
+Wakanda Soldier 1	VCN
+Okoye	VCO
+T'challa's Armor	VCS
