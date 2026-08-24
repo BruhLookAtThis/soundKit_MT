@@ -1,0 +1,25 @@
+# THIS LIST IS FOR CREATING "SAFE" PATHS WITHIN A SPECIFIED PARENT FOLDER THAT THE SCRIPT WILL OVERLOOK DURING A PRELIMINARY DELETION PHASE IN OPTION 1
+# HOW IT WORKS
+#
+# 0. The script will NOT delete anything unless a PARENT FOLDER: entry is listed. This listing will give the script a deletion target path.
+#
+# 1. Create a "PARENT FOLDER:" entry on one line
+#    For Example: PARENT FOLDER: 0_DATA\0-DATA-INPUT\0-JSONS\Chara
+# 2. Create a "SAFE PATH:" entry directly below the PARENT line
+#    For Example: PARENT FOLDER: ATN\Common\Audio
+# 3. If there are multiple branching paths in a Parent folder (or it's subfolders) that have the SAME layout for a particular path, type <ANY> in place of the variable folder name
+#    For Example: 0_DATA\0-DATA-INPUT\0-JSONS\Chara has multiple subfolders directly under it, each named after a different character's codename (like "ATN" or "ZAN")
+#                 They all contain the same layout for a certain path, like "ATN\Common\Audio\" and "ZAN\Common\Audio\"
+#                 If you want to spare them all from the deletion step, change your SAFE PATH: listing to "<ANY>\Common\Audio"
+#
+# So at the end of your entry, it should look like this:
+#
+# PARENT FOLDER: 0_DATA\0-DATA-INPUT\0-JSONS\Chara
+# SAFE PATH: <ANY>\Common\Audio
+#
+# Capiche? If you leave this file completely empty below, the script will NOT delete ANYthing
+# Type your custom Delete-Safe Listings below
+###########################################################################################################
+
+PARENT FOLDER: 0_DATA\0-DATA-INPUT\0-JSONS\Chara
+SAFE PATH: <ANY>\Common\Audio
