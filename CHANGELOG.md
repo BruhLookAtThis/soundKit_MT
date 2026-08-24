@@ -77,7 +77,6 @@ UPDATE 0.1.2 (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### For General
 
 ### For SDKT
-
 - Moved/Renamed `0-Put-CUSTOM-AUDIO-Here` to `A-INPUT\0-Put-CUSTOM-AUDIO-Here`
 - Moved/Renamed `2-Put-CUSTOM-WEMs-Here` to `A-INPUT\2-Put-CUSTOM-WEMs-Here`
 - Moved/Renamed `1-RENAMED-Media-Wems-Here` to `A-INPUT\1-ORGANIZED-Wems-Here`
@@ -90,8 +89,24 @@ UPDATE 0.1.2 (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 - Added `0-TOOLS-ALL\0-VORB` and `0-TOOLS-ALL\0-VGCLI` folders
   - Upon script start (if the files re missing) or during Option U, the script will now:
     - Auto-download necessary files for `0-VORB` (including `0-WWISE.wproj` and other dependencies for creating `Vorbis` .wems)
+      - `0-WWISE.wproj` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-WWISE.wproj
     - Auto-download necessary files for `0-VGCLI` (including `vgmstream-cli.exe` and it's dependencies)
+      - `vgmstream-cli.exe` and it's dependencies are pulled from here: https://github.com/vgmstream/vgmstream/releases/download/r2083/vgmstream-win64.zip
+    - Auto-download `0-TESTS.zip`
+      - `0-TESTS.zip` is pulled from: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-TESTS.zip
+    - Auto-download `0-CHARACTER-ID-LIST.txt`
+      - `0-CHARACTER-ID-LIST.txt` is pulled from: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-CHARACTER-ID-LIST.txt
 
+- Adjusted Option 1 to automatically download a fresh `0-CHARACTER-ID-LIST.txt` file before beginning processing
+- Added y/N prompt in Option 2 to set Tokon `Paks` folder location for automatic pak transfer
+  - If users select `y` and set up their `Paks` folder path, the script will transfer their output .pak files into a `~mods-AUDIO` folder there
+  - If they choose `N`, the paks will be left in `3-Your-MODDED-PAK-Is-Here\`
+  - In either choice, the script will ask the user if they want to open the output folder
+  
+- Combined Options 103 (Test `.wem` creation) and 104 (Silent `.wem` creation) into Option 103, containing two Sub-Options
+  - Sub-Option 1 will be for creating Test `.wems`, Sub-Option 2 will be for creating Silent `.wems`  
+
+## IMPORTANT
 - Added Vorbis .wem creation to Option 0 via integration with AudioKinetic WWise Launcher
  - By default, soundKit creates 'PCM' .wems
  - However, 'Vorbis' .wems are not only much smaller in file size, but can handle longer audio for mods too
@@ -126,25 +141,6 @@ UPDATE 0.1.2 (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
  21. Follow the on-screen prompts to point the script to your WwiseConsole.exe
  22. Once finished, your output wems will now be Vorbis instead of PCM
  23. Set paths will be saved in `\0_DATA\0-TXTs\0-CONFIG.txt`
-
-
-
-
-
-
-
-
-  - Users will also be prompted to move these pakd bnks into the `~mods-AUDIO` folder in their games Paks folder
-  - If they choose not to, the paks will be left in `3-Your-MODDED-BNK-Is-Here\Packed-Bnks-Here`
-  - In either choice, the script will ask the user if they want to open the output folder
-    
-- Added `~mods-AUDIO` output option
-  - Users can now setup the path to their Tokon `Paks` folder and have Option 2 automatically send pakd audio files there
-  
-- Added Vorbis wem creation streamlining (Uhhh go steal the wording from the soundKit_MR page lol dont feel liek typing all that shit again)
-- Combined Test and Silent Option into one main menu option -> two sub-options  
-- Uhhhh....and some other shit
-- Kinda just porting over the Rivals beta soundKit features cause I cant let yall live in poverty any longer lol
 
 ### NOTE: This is NOT heavily tested! 
 
