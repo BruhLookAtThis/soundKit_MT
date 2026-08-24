@@ -103,63 +103,63 @@ KSO: MOB CHARA - Odin (KSO)
 KSP: MOB CHARA - Pegasus	(KSP)
 KSS: MOB CHARA - Sif	(KSS)
 KSV: MOB CHARA - Valkyrie (KSV)
-Destroyer	KSY
-Angel	MCA
-Beast	MCB
-Colossus	MCC
-Gambit	MCG
-Iceman	MCI
-Nightcrawler	MCN
-Psylocke	MCP
-Rogue	MCR
-Sentinel	MCS
-Xavier	MCX
-Euoplocephalus (Dinosaur)	NIA
-Brachiosaurus	NIB
-Savage Land BG Animal	NIE
-Savage Land BG Animal	NIG
-Savage Land BG Animal	NIH
-Savage Land BG Animal	NIK
-Savage Land BG Animal	NIN
-Savage Land BG Animal	NIP
-Savage Land BG Animal	NIR
-Savage Land BG Animal	NIS
-Savage Land BG Animal	NIY
-Savage Land BG Animal	NIZ
-Soldier NYC Night 1	NNA
-Bullseye	NNB
-Soldier NYC Night 2	NNC
-Daredevil	NND
-Howard	NNH
-MJ	NNM
-She-Hulk	NNS
-Bystander NYC 1	NYA
-Bystander NYC 2	NYB
-Bystander NYC 3	NYC
-Bystander NYC 4	NYD
-Bystander NYC 5	NYE
-Bystander NYC 6	NYF
-Bystander NYC 7	NYG
-Bystander NYC 8	NYH
-Bystander NYC 9	NYI
-Bystander NYC 10	NYJ
-New York Items	NYN
-Gargantos/Shuma-Gorath	NYS
-Soldier 1	NYT
-Gloves	NYV
-Pidgeon	NYW
-Wakanda Bystander 1	VCA
-Wakanda Bystander 2	VCB
-Wakanda Bystander 3	VCC
-Wakanda Bystander 4	VCD
-Wakanda Bystander 5	VCE
-Wakanda Bystander 6	VCF
-Wakanda Bystander 7	VCG
-Wakanda Bystander 8	VCH
-Wakanda Bystander 9	VCI
-Wakanda Bystander 10	VCJ
-Wakanda Bystander 11	VCK
-Wakanda Bystander 12	VCL
-Wakanda Soldier 1	VCN
-Okoye	VCO
-T'challa's Armor	VCS
+KSY: MOB CHARA - Destroyer (KSY)
+MCA: MOB CHARA - Angel (MCA)
+MCB: MOB CHARA - Beast	(MCB)
+MCC: MOB CHARA - Colossus (MCC)
+MCG: MOB CHARA - Gambit (MCG)
+MCI: MOB CHARA - Iceman (MCI)
+MCN: MOB CHARA - Nightcrawler (MCN)
+MCP: MOB CHARA - Psylocke (MCP)
+MCR: MOB CHARA - Rogue	(MCR)
+MCS: MOB CHARA - Sentinel (MCS)
+MCX: MOB CHARA - Xavier (MCX)
+NIA: MOB CHARA - Euoplocephalus (Dinosaur) (NIA)
+NIB: MOB CHARA - Brachiosaurus (NIB)
+NIE: MOB CHARA - Savage Land BG Animal (NIE)
+NIG: MOB CHARA - Savage Land BG Animal (NIG)
+NIH: MOB CHARA - Savage Land BG Animal (NIH)
+NIK: MOB CHARA - Savage Land BG Animal (NIK)
+NIN: MOB CHARA - Savage Land BG Animal (NIN)
+NIP: MOB CHARA - Savage Land BG Animal (NIP)
+NIR: MOB CHARA - Savage Land BG Animal (NIR)
+NIS: MOB CHARA - Savage Land BG Animal (NIS)
+NIY: MOB CHARA - Savage Land BG Animal (NIY)
+NIZ: MOB CHARA - Savage Land BG Animal (NIZ)
+NNA: MOB CHARA - Soldier NYC Night 1 (NNA)
+NNB: MOB CHARA - Bullseye	(NNB)
+NNC: MOB CHARA - Soldier NYC Night 2 (NNC)
+NND: MOB CHARA - Daredevil (NND)
+NNH: MOB CHARA - Howard	(NNH)
+NNM: MOB CHARA - MJ	(NNM)
+NNS: MOB CHARA - She-Hulk (NNS)
+NYA: MOB CHARA - Bystander NYC 1 (NYA)
+NYB: MOB CHARA - Bystander NYC 2 (NYB)
+NYC: MOB CHARA - Bystander NYC 3 (NYC)
+NYD: MOB CHARA - Bystander NYC 4 (NYD)
+NYA: MOB CHARA - Bystander NYC 5 (NYE)
+NYF: MOB CHARA - Bystander NYC 6 (NYF)
+NYG: MOB CHARA - Bystander NYC 7 (NYG)
+NYH: MOB CHARA - Bystander NYC 8 (NYH)
+NYI: MOB CHARA - Bystander NYC 9 (NYI)
+NYJ: MOB CHARA - Bystander NYC 10	(NYJ)
+NYN: MOB CHARA - New York Items	(NYN)
+NYS: MOB CHARA - Gargantos/Shuma-Gorath	(NYS)
+NYT: MOB CHARA - Soldier 1 (NYT)
+NYV: MOB CHARA - Gloves	(NYV)
+NYW: MOB CHARA - Pidgeon (NYW)
+VCA: MOB CHARA - Wakanda Bystander 1 (VCA)
+VCB: MOB CHARA - Wakanda Bystander 2 (VCB)
+VCC: MOB CHARA - Wakanda Bystander 3 (VCC)
+VCD: MOB CHARA - Wakanda Bystander 4 (VCD)
+VCE: MOB CHARA - Wakanda Bystander 5 (VCE)
+VCF: MOB CHARA - Wakanda Bystander 6 (VCF)
+VCG: MOB CHARA - Wakanda Bystander 7 (VCG)
+VCH: MOB CHARA - Wakanda Bystander 8 (VCH)
+VCI: MOB CHARA - Wakanda Bystander 9 (VCI)
+VCJ: MOB CHARA - Wakanda Bystander 10	(VCJ)
+VCK: MOB CHARA - Wakanda Bystander 11	(VCK)
+VCL: MOB CHARA - Wakanda Bystander 12	(VCL)
+VCN: MOB CHARA - Wakanda Soldier 1 (VCN)
+VCO: MOB CHARA - Okoye (VCO)
+VCS: MOB CHARA - T'challa's Armor	(VCS)
