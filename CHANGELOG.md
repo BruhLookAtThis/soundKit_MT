@@ -96,8 +96,12 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
       - `0-TESTS.zip` is pulled from: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-TESTS.zip
     - Auto-download `0-CHARACTER-ID-LIST.txt`
       - `0-CHARACTER-ID-LIST.txt` is pulled from: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-CHARACTER-ID-LIST.txt
+    - Auto-download `0-DELETE-LIST.txt`
+      - `0-DELETE-LIST.txt` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-DELETE-LIST.txt 
 
 - Adjusted Option 1 to automatically download a fresh `0-CHARACTER-ID-LIST.txt` file before beginning processing
+- Adjusted Option 1 to reference the `0-DELETE-LIST.txt` file before beginning processing
+  - This file
 - Added y/N prompt in Option 2 to set Tokon `Paks` folder location for automatic pak transfer
   - If users select `y` and set up their `Paks` folder path, the script will transfer their output .pak files into a `~mods-AUDIO` folder there
   - If they choose `N`, the paks will be left in `3-Your-MODDED-PAK-Is-Here\`
