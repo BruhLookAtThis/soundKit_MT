@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
-CODENAME LIST (Updated as of 08-21-26)
+CODENAME LIST (Updated as of 08-24-26)
 ----------------------------------------------------------------
 # EXPLANATION:
 # When using Option 1 of the script, it renames wems from the Media folder and organzies them into folders.
