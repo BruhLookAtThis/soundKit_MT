@@ -107,7 +107,7 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
   - Sub-Option 1 will be for creating Test `.wems`, Sub-Option 2 will be for creating Silent `.wems`  
 
 - Changed how Main Menu Info Options are accessed:
-  - Users now type `i` and then the number of the Option to access the Info page
+  - Users now type `i` and then the number/letter of the Option to access its Info page
     - For example: To see the info for Option 0, type `i0` and hit Enter
   - With that, cleared out the Info options list from the Main Menu
   
@@ -147,7 +147,7 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
  22. Once finished, your output wems will now be Vorbis instead of PCM
  23. Set paths will be saved in `\0_DATA\0-TXTs\0-CONFIG.txt`
 
-### NOTE: This is NOT heavily tested! 
+### NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
