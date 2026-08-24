@@ -110,6 +110,8 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
 - Adjusted Option 1 to automatically download a fresh `0-CHARACTER-ID-LIST.txt` file before beginning processing
 - Adjusted Option 1 to "properly" create subtitles for the `Fem Narrator` (codename BBB)
   - As far as I can tell, the Fem Narra has no subtitles of her own, so I just duplicated the Masc Narra (codename AAA) subtitles, since they say the same things (afaik)
+- Adjusted Option 1 to rename Narrator `SFX` to `_UNIVERSAL`
+  - The voice lines contained in that folder are the same across all languages, which is why it was put into an `SFX` folder in the first place (to put it simply)
 - Adjusted Option 1 to properly assign Episode Voice Line Subtitles 
 - Adjusted Option 1 to reference the `0-DELETE-LIST.txt` file before beginning processing
   - This .txt file is used to designate folder paths in `0_DATA\0-DATA-INPUT\` as targets for precise folder path deletion
