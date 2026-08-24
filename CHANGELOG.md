@@ -87,12 +87,12 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
 - Moved/Renamed `0-JSONS` and `0-MEDIA` to `0-DATA-INPUT\0-JSONS` and `0-DATA-INPUT\0-MEDIA`, respectively
 - Moved log creation into new `0_DATA\0-LOGS` folder
 - Added `0-TOOLS-ALL\0-VORB` and `0-TOOLS-ALL\0-VGCLI` folders
-  - Upon script start (if the files re missing) or during Option U, the script will now:
-    - Auto-download necessary files for `0-VORB` (including `0-WWISE.wproj` and other dependencies for creating `Vorbis` .wems)
+  - Upon script start (if the files are missing) or during Option U, the script will now:
+    - Auto-download/create necessary files for `0-VORB` (including `0-WWISE.wproj` for creating `Vorbis` .wems)
       - `0-WWISE.wproj` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-WWISE.wproj
     - Auto-download necessary files for `0-VGCLI` (including `vgmstream-cli.exe` and it's dependencies)
       - `vgmstream-cli.exe` and it's dependencies are pulled from here: https://github.com/vgmstream/vgmstream/releases/download/r2083/vgmstream-win64.zip
-    - Auto-download `0-TESTS.zip`
+    - Auto-download `0-TESTS.zip` (contains `.wems` used for Test `.wem` and Silent `.wem` Options)
       - `0-TESTS.zip` is pulled from: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-TESTS.zip
     - Auto-download `0-CHARACTER-ID-LIST.txt`
       - `0-CHARACTER-ID-LIST.txt` is pulled from: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-CHARACTER-ID-LIST.txt
