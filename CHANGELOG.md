@@ -79,7 +79,7 @@ UPDATE 0.1.2 (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### For SDKT
 - Moved/Renamed `0-Put-CUSTOM-AUDIO-Here` to `A-INPUT\0-Put-CUSTOM-AUDIO-Here`
 - Moved/Renamed `2-Put-CUSTOM-WEMs-Here` to `A-INPUT\2-Put-CUSTOM-WEMs-Here`
-- Moved/Renamed `1-RENAMED-Media-Wems-Here` to `A-INPUT\1-ORGANIZED-Wems-Here`
+- Moved/Renamed `1-RENAMED-Media-Wems-Here` to `A-INPUT\1-ORGANIZED-Wems-Are-Here`
 - Moved/Renamed `3-Your-MOD-FILES-Are-Here` to `B-OUTPUT\3-Your-MOD-FILES-Are-Here`
 - Moved/Renamed `x100-XTRAs-Are-Here` to `X-TRA-OPTIONS`
 - Moved/Renamed `x200-ERROR-FILEs-Are-Here` to `C-ERROR`
@@ -106,6 +106,11 @@ UPDATE 0.1.2 (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 - Combined Options 103 (Test `.wem` creation) and 104 (Silent `.wem` creation) into Option 103, containing two Sub-Options
   - Sub-Option 1 will be for creating Test `.wems`, Sub-Option 2 will be for creating Silent `.wems`  
 
+- Changed how Main Menu Info Options are accessed:
+  - Users now type `i` and then the number of the Option to access the Info page
+    - For example: To see the info for Option 0, type `i0` and hit Enter
+  - With that, cleared out the Info options list from the Main Menu
+  
 ## IMPORTANT
 - Added Vorbis .wem creation to Option 0 via integration with AudioKinetic WWise Launcher
  - By default, soundKit creates 'PCM' .wems
