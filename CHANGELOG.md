@@ -77,6 +77,67 @@ UPDATE 0.1.2 (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### For General
 
 ### For SDKT
+
+- Moved/Renamed `0-Put-CUSTOM-AUDIO-Here` to `A-INPUT\0-Put-CUSTOM-AUDIO-Here`
+- Moved/Renamed `2-Put-CUSTOM-WEMs-Here` to `A-INPUT\2-Put-CUSTOM-WEMs-Here`
+- Moved/Renamed `1-RENAMED-Media-Wems-Here` to `A-INPUT\1-ORGANIZED-Wems-Here`
+- Moved/Renamed `3-Your-MOD-FILES-Are-Here` to `B-OUTPUT\3-Your-MOD-FILES-Are-Here`
+- Moved/Renamed `x100-XTRAs-Are-Here` to `X-TRA-OPTIONS`
+- Moved/Renamed `x200-ERROR-FILEs-Are-Here` to `C-ERROR`
+- Moved/Renamed `0-TOOLS` to `0-TOOLS-ALL`, with `0-TESTS` now nested inside it
+- Moved/Renamed `0-JSONS` and `0-MEDIA` to `0-DATA-INPUT\0-JSONS` and `0-DATA-INPUT\0-MEDIA`, respectively
+- Moved log creation into new `0_DATA\0-LOGS` folder
+- Added `0-TOOLS-ALL\0-VORB` and `0-TOOLS-ALL\0-VGCLI` folders
+  - Upon script start (if the files re missing) or during Option U, the script will now:
+    - Auto-download necessary files for `0-VORB` (including `0-WWISE.wproj` and other dependencies for creating `Vorbis` .wems)
+    - Auto-download necessary files for `0-VGCLI` (including `vgmstream-cli.exe` and it's dependencies)
+
+- Added Vorbis .wem creation to Option 0 via integration with AudioKinetic WWise Launcher
+ - By default, soundKit creates 'PCM' .wems
+ - However, 'Vorbis' .wems are not only much smaller in file size, but can handle longer audio for mods too
+ - To use this new feature, users must
+  
+ 1. Go to https://www.audiokinetic.com/en/download/
+ 2. Log in/create an account
+ 3. Download the Audio Kinetic Launcher
+ 4. Open the AudioKineticLauncher .exe that you just downloaded
+ 5. Agree with the Terms, and let it install
+ 6. Once done, it will open the AudioKineticLauncher app
+ 7. On the left side bar, go to 'Wwise'
+ 8. At the bottom under 'INSTALL A NEW VERSION', click the 'Latest' box and change it to 'All'
+ 9. Next to this in the 'Major' box, select '2023.1'
+ 10. Next to this in the 'Version' box, select '2023.1.0'
+ 11. Click 'Install' (it's possible you may need to log in again, do that, then continue)
+ 12. Under 'Packages', only have 'Authoring' checked
+ 13. Under 'Platform', have 'Microsoft/Windows' checked
+ 14. Under 'Target Directory', pick a destination for the install
+
+- NOTE: I HIGHLY RECOMMEND YOU CHOOSE A DESTINATION THAT WON'T BE MOVED/DELETED/RENAMED, etc
+
+ 15. Click 'Next'
+ 16. On the top right, click 'Select None'
+ 17. Click 'Install'
+ 18. When it's done and say 'Install Operation Completed Successfully', you can close this app
+
+- NOW: Open SoundKit
+
+ 19. In the main menu, type '0' to go to Option 0
+ 20. At the Option 0 menu, type 's' and press Enter to begin setup for Vorbis .wems
+ 21. Follow the on-screen prompts to point the script to your WwiseConsole.exe
+ 22. Once finished, your output wems will now be Vorbis instead of PCM
+ 23. Set paths will be saved in `\0_DATA\0-TXTs\0-CONFIG.txt`
+
+
+
+
+
+
+
+
+  - Users will also be prompted to move these pakd bnks into the `~mods-AUDIO` folder in their games Paks folder
+  - If they choose not to, the paks will be left in `3-Your-MODDED-BNK-Is-Here\Packed-Bnks-Here`
+  - In either choice, the script will ask the user if they want to open the output folder
+    
 - Added `~mods-AUDIO` output option
   - Users can now setup the path to their Tokon `Paks` folder and have Option 2 automatically send pakd audio files there
   
