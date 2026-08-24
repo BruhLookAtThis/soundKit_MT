@@ -77,6 +77,7 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
 ### For General
 
 ### For SDKT
+- Updated 
 - Moved/Renamed `0-Put-CUSTOM-AUDIO-Here` to `A-INPUT\0-Put-CUSTOM-AUDIO-Here`
 - Moved/Renamed `2-Put-CUSTOM-WEMs-Here` to `A-INPUT\2-Put-CUSTOM-WEMs-Here`
 - Moved/Renamed `1-RENAMED-Media-Wems-Here` to `A-INPUT\1-ORGANIZED-Wems-Are-Here`
@@ -105,7 +106,11 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
     - Auto-download `0-DELETE-LIST.txt` (Option U will ignore this file)
       - `0-DELETE-LIST.txt` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-DELETE-LIST.txt 
 
+- Updated `0-CHARACTER-ID-LIST.txt` file with NPCs, Maps, and Mob Characters, and further segmented each entry type
 - Adjusted Option 1 to automatically download a fresh `0-CHARACTER-ID-LIST.txt` file before beginning processing
+- Adjusted Option 1 to "properly" create subtitles for the `Fem Narrator` (codename BBB)
+  - As far as I can tell, the Fem Narra has no subtitles of her own, so I just duplicated the Masc Narra (codename AAA) subtitles, since they say the same things (afaik)
+- Adjusted Option 1 to properly assign Episode Voice Line Subtitles 
 - Adjusted Option 1 to reference the `0-DELETE-LIST.txt` file before beginning processing
   - This .txt file is used to designate folder paths in `0_DATA\0-DATA-INPUT\` as targets for precise folder path deletion
   - Its primarily a space-saving addition to get rid of unused files that may get picked up during FModel extraction
