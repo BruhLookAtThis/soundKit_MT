@@ -98,7 +98,7 @@ KSF: MOB CHARA - Frigga (KSF)
 KSG: MOB CHARA - Volstagg (KSG)
 KSH: MOB CHARA - Hogun	(KSH)
 KSL: MOB CHARA - Fandral	(KSL)
-KSN - NULL
+~ KSN [Not Identified Yet]
 KSO: MOB CHARA - Odin (KSO)
 KSP: MOB CHARA - Pegasus (KSP)
 KSS: MOB CHARA - Sif (KSS)
