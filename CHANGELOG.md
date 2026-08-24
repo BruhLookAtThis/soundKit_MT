@@ -82,6 +82,12 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
 - Moved/Renamed `1-RENAMED-Media-Wems-Here` to `A-INPUT\1-ORGANIZED-Wems-Are-Here`
 - Moved/Renamed `3-Your-MOD-FILES-Are-Here` to `B-OUTPUT\3-Your-MOD-FILES-Are-Here`
 - Moved/Renamed `x100-XTRAs-Are-Here` to `X-TRA-OPTIONS`
+- Moved/Renamed `x103-TEST-Wem-Stuff` to `x103-TEST-SILENT`
+  - Moved `A-Put-Wems-To-TEST-Here` and `B-Your-New-TEST-Wems-Are-Here` into `x103-TEST-SILENT`
+- Moved/Renamed `x104-SILENT-Wem-Stuff` to `x103-TEST-SILENT`
+  - Renamed `A-Put-Wems-To-SILENCE-Here` to `C-Put-Wems-To-SILENCE-Here`
+  - Renamed `B-Your-Newly-SILENCED-Wems-Are-Here` to `D-Your-New-SILENCED-Wems-Are-Here`
+  - Moved `C-Put-Wems-To-SILENCE-Here` and `D-Your-New-SILENCED-Wems-Are-Here` into `x103-TEST-SILENT`
 - Moved/Renamed `x200-ERROR-FILEs-Are-Here` to `C-ERROR`
 - Moved/Renamed `0-TOOLS` to `0-TOOLS-ALL`, with `0-TESTS` now nested inside it
 - Moved/Renamed `0-JSONS` and `0-MEDIA` to `0-DATA-INPUT\0-JSONS` and `0-DATA-INPUT\0-MEDIA`, respectively
@@ -96,12 +102,25 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
       - `0-TESTS.zip` is pulled from: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-TESTS.zip
     - Auto-download `0-CHARACTER-ID-LIST.txt`
       - `0-CHARACTER-ID-LIST.txt` is pulled from: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-CHARACTER-ID-LIST.txt
-    - Auto-download `0-DELETE-LIST.txt`
+    - Auto-download `0-DELETE-LIST.txt` (Option U will ignore this file)
       - `0-DELETE-LIST.txt` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/0-DELETE-LIST.txt 
 
 - Adjusted Option 1 to automatically download a fresh `0-CHARACTER-ID-LIST.txt` file before beginning processing
 - Adjusted Option 1 to reference the `0-DELETE-LIST.txt` file before beginning processing
-  - This file
+  - This .txt file is used to designate folder paths in `0_DATA\0-DATA-INPUT\` as targets for precise folder path deletion
+  - Its primarily a space-saving addition to get rid of unused files that may get picked up during FModel extraction
+  - Here is how it works:
+    - Users open the .txt and type in a `PARENT FOLDER:` path, such as `0_DATA\0-DATA-INPUT\0-JSONS\Chara`
+      - This designates the `Chara` folder as a target for file cleanup
+    - Next, directly under the `PARENT FOLDER:` path, users type in a `SAFE PATH:`, such as `ATN\Common\Audio\`
+      - This prevents the `ATN\Common\Audio\` folder from being deleted, while everything else under the `Chara` folder gets deleted
+      - If users have several paths they want to save that are directly under the `Chara` folder AND share the same structure, they can type `<ANY>` as the first folder name in the child path, and the script will ignore any folders matching it's structure
+      - For example, lets say under `0_DATA\0-DATA-INPUT\0-JSONS\Chara`, you have:
+        - `ATN\Common\Audio\`, `CBN\Common\Audio\`, & `ZAN\Common\Audio\`
+        - Instead of typing all of these `SAFE PATH`s, you can just put `<ANY>\Common\Audio\`
+        - And the script will ignore all of these paths when it deletes files/folders from under `Chara`
+  - Currently, when extracting the `Chara` folder as `.json` in FModel, a lot of unused `.json`s are extracted too, which are basically junk in regard to audio modding
+ 
 - Added y/N prompt in Option 2 to set Tokon `Paks` folder location for automatic pak transfer
   - If users select `y` and set up their `Paks` folder path, the script will transfer their output .pak files into a `~mods-AUDIO` folder there
   - If they choose `N`, the paks will be left in `3-Your-MODDED-PAK-Is-Here\`
