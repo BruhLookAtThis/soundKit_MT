@@ -1,12 +1,16 @@
 # THIS LIST IS FOR CREATING "SAFE" PATHS WITHIN A SPECIFIED PARENT FOLDER THAT THE SCRIPT WILL OVERLOOK DURING A PRELIMINARY DELETION PHASE IN OPTION 1
-# HOW IT WORKS
+# IT CAN ALSO BE USED TO DELETE FILES THAT CONTAIN A SPECIFIC STRING IN THEIR NAMES
+#
+#  ---------------- HOW IT WORKS ---------------- 
 #
 # 0. The script will NOT delete anything unless a PARENT FOLDER: entry is listed. This listing will give the script a deletion target path.
+#
+# ---------------- FOR DELETING ENTIRE PATHS ----------------
 #
 # 1. Create a "PARENT FOLDER:" entry on one line
 #    For Example: PARENT FOLDER: 0_DATA\0-DATA-INPUT\0-JSONS\Chara
 # 2. Create a "SAFE PATH:" entry directly below the PARENT line
-#    For Example: PARENT FOLDER: ATN\Common\Audio
+#    For Example: SAFE PATH: ATN\Common\Audio
 # 3. If there are multiple branching paths in a Parent folder (or it's subfolders) that have the SAME layout for a particular path, type <ANY> in place of the variable folder name
 #    For Example: 0_DATA\0-DATA-INPUT\0-JSONS\Chara has multiple subfolders directly under it, each named after a different character's codename (like "ATN" or "ZAN")
 #                 They all contain the same layout for a certain path, like "ATN\Common\Audio\" and "ZAN\Common\Audio\"
@@ -17,9 +21,29 @@
 # PARENT FOLDER: 0_DATA\0-DATA-INPUT\0-JSONS\Chara
 # SAFE PATH: <ANY>\Common\Audio
 #
+# ---------------- FOR DELETING FILES WHOSE NAMES MATCH A STRING ----------------
+#
+# 1. Create a "PARENT FOLDER:" entry on one line
+#    For Example: PARENT FOLDER: 0_DATA\0-DATA-INPUT\0-JSONS\Chara
+# 2. Create a "FILES TO DELETE:" entry directly below the PARENT line
+# 3. Add strings that should be deleted if matched to a file name
+#    For Example: FILES TO DELETE: _Curve.json
+# 4. Additional strings can be added by separating entries with a comma
+#    For Example: FILES TO DELETE: _Curve.json, Data.json, Haptic.json
+#
+# So at the end of your entry, it should look like this:
+#
+# PARENT FOLDER: 0_DATA\0-DATA-INPUT\0-JSONS\Chara
+# FILES TO DELETE: _Curve.json, Data.json, Haptic.json
+#
+# ---------------- END ----------------
+#
 # Capiche? If you leave this file completely empty below, the script will NOT delete ANYthing
-# Type your custom Delete-Safe Listings below
-###########################################################################################################
+#
+# ---------------- TYPE YOUR CUSTOM ENTRIES BELOW ----------------
 
 PARENT FOLDER: 0_DATA\0-DATA-INPUT\0-JSONS\Chara
 SAFE PATH: <ANY>\Common\Audio
+
+PARENT FOLDER: 0_DATA\0-DATA-INPUT\0-JSONS\Chara
+FILES TO DELETE: _Curve.json
