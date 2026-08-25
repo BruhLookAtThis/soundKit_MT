@@ -112,9 +112,10 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
   - As far as I can tell, the Fem Narra has no subtitles of her own, so I just duplicated the Masc Narra (codename AAA) subtitles, since they say the same things (afaik)
 - Adjusted Option 1 to rename Narrator `SFX` to `_UNIVERSAL`
   - The voice lines contained in that folder are the same across all languages, which is why it was put into an `SFX` folder in the first place (to put it simply)
-- Adjusted Option 1 to properly assign Episode Voice Line Subtitles 
+- Adjusted Option 1 to properly assign Episode Voice Line Subtitles
+
 - Adjusted Option 1 to reference the `0-DELETE-LIST.txt` file before beginning processing
-  - This .txt file is used to designate folder paths in `0_DATA\0-DATA-INPUT\` as targets for precise folder path deletion
+  - This .txt file is used to designate folder paths in `0_DATA\0-DATA-INPUT\` as targets for precise folder path/file deletion
   - Its primarily a space-saving addition to get rid of unused files that may get picked up during FModel extraction
   - Here is how it works:
     - Users open the .txt and type in a `PARENT FOLDER:` path, such as `0_DATA\0-DATA-INPUT\0-JSONS\Chara`
@@ -127,6 +128,18 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
         - Instead of typing all of these `SAFE PATH`s, you can just put `<ANY>\Common\Audio\`
         - And the script will ignore all of these paths when it deletes files/folders from under `Chara`
   - Currently, when extracting the `Chara` folder as `.json` in FModel, a lot of unused `.json`s are extracted too, which are basically junk in regard to audio modding
+  - Users can also designate files whose names match a certain string for deletion as well
+    - Here is how it works:
+      - As before, users open the .txt and type in a `PARENT FOLDER:` path, such as `0_DATA\0-DATA-INPUT\0-JSONS\Chara`
+      - Next, directly under the `PARENT FOLDER:` path, users type in `FILES TO DELETE:`
+      - For this param, they can enter a specific string that will designate a file for deletion, such as `_Curve.json`
+      - Additional strings can be added by separating them with a comma, like `_Curve.json, Data.json, Haptic.json`
+      - The listing will look like this in the `0-DELETE-LIST.txt` file
+     
+        `PARENT FOLDER: 0_DATA\0-DATA-INPUT\0-JSONS\Chara`
+        `FILES TO DELETE: _Curve.json, Data.json, Haptic.json`
+  
+      - So to summarize, any file under `0_DATA\0-DATA-INPUT\0-JSONS\Chara` that has `"_Curve.json"`, `"Data.json"`, or `"Haptic.json"` in its name will be deleted, in this example
  
 - Added y/N prompt in Option 2 to set Tokon `Paks` folder location for automatic pak transfer
   - If users select `y` and set up their `Paks` folder path, the script will transfer their output .pak files into a `~mods-AUDIO` folder there
