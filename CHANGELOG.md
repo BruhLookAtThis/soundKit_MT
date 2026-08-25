@@ -113,6 +113,10 @@ UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
 - Adjusted Option 1 to rename Narrator `SFX` to `_UNIVERSAL`
   - The voice lines contained in that folder are the same across all languages, which is why it was put into an `SFX` folder in the first place (to put it simply)
 - Adjusted Option 1 to properly assign Episode Voice Line Subtitles
+- Adjusted Option 1 to properly sort `Vibration` (VIB) files
+  - These will go in their respective `SOUND Files` files, with the tag `(SE-VIB)`
+    - (Not sure what use these have to the average modder, I first caught wind of them when modding Stellar Blade)
+    - (They're probably for syncing the audio of an action to the controller vibration)
 
 - Adjusted Option 1 to reference the `0-DELETE-LIST.txt` file before beginning processing
   - This .txt file is used to designate folder paths in `0_DATA\0-DATA-INPUT\` as targets for precise folder path/file deletion
