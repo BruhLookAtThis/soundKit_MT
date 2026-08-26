@@ -71,13 +71,14 @@ UPDATE 0.1.1 (08-21-2026)
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE 0.1.2 (08-24-2026) (NOT RELEASED YET, `BUG TESTING`)
+UPDATE 1.0.0 (08-26-2026) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
 ### For General
 
 ### For SDKT
-- Updated 
+- Updated Info Options, users should be able to understand the basics of each option by reading these
+  - Too lazy to make a youtube video right now lol I will get to that another day
 - Moved/Renamed `0-Put-CUSTOM-AUDIO-Here` to `A-INPUT\0-Put-CUSTOM-AUDIO-Here`
 - Moved/Renamed `2-Put-CUSTOM-WEMs-Here` to `A-INPUT\2-Put-CUSTOM-WEMs-Here`
 - Moved/Renamed `1-RENAMED-Media-Wems-Here` to `A-INPUT\1-ORGANIZED-Wems-Are-Here`
