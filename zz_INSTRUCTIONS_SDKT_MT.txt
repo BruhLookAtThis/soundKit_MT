@@ -1,0 +1,60 @@
+----------------------------------------------------------------
+CREDITS:
+----------------------------------------------------------------
+
+BruhLookAtThis / ❕토 Tobi 비❕ (Spare Change?: https://linktr.ee/BruhLookAtThis)
+
+----------------------------------------------------------------
+CREATOR NOTES:
+----------------------------------------------------------------
+
+-Documentation for Character IDs: https://docs.google.com/spreadsheets/d/160YQ4scnSduVM6c7Ce1DDw9uAFpLKdaGdpatLZzrAT0/edit?usp=sharing
+-Tokon Modding Discord: https://discord.gg/tgFrebr
+
+----------------------------------------------------------------
+BASICS:
+----------------------------------------------------------------
+
+1. Right Click the file thats named 'z1_RunMeInPowershell_SMT_MT.ps1'
+2. Click 'Run In Powershell'
+3. A Powershell window will open
+4. Select one of the Info Options to learn what each option does, how to use them, and extra notes it may have
+   - To do this, type "i" + the number/letter of the Option you want to learn about
+
+----------------------------------------------------------------
+WARNINGS:
+----------------------------------------------------------------
+
+1. Dont touch the contents of the file thats named 'z1_RunMeInPowershell_SMT_MT'
+2. Do NOT try to use this tool inside of a folder that has spaces or special characters in its name
+   This includes ANY folder in the path leading to the tool
+   Good Example: 'D:\Folder1\Folder2\Folder3\soundkit_MT_v99\' is good to go, because there are no spaces OR special characters in the path folders
+   Bad Example: 'D:\Folder 1\[Folder2]\Folder#\soundkit_MT_v99\' is not good to go, because it has a space and special characters in the path folders
+3. Using this tool inside of a super long directory MAY cause issues, like skipped files during processing   
+
+----------------------------------------------------------------
+TROUBLESHOOTING:
+----------------------------------------------------------------
+
+1. If you have any questions, hit the discord buddy, link is above
+2. If you run the .ps1 file in Powershell and it immediately closed:
+    - Type 'powershell' in the File Explorer url and hit Enter
+    - A Powershell window will open. Paste this in it and hit Enter:
+
+     .\z1_RunMeInPowershell_SMT_MT.ps1
+
+    - You should be able to clearly see an error message now without the window immediately closing 
+
+2b. If you get an error/warning about "Execution Policy" when running the .ps1 file
+    - Double click 'z2_DoubleClickMe_SMT_MT.bat'
+     (If you dont see the .bat at the end of the file's name, Google 'How To Enable File Extensions'
+     and follow the instructions for your OS version)
+    - A CMD window will appear and the process will (or should lol) begin
+
+    IF THIS DOES NOT WORK, GOOGLE 'HOW TO CHANGE POWERSHELL EXECUTION POLICY' AND FOLLOW THE STEPS FOR YOUR OS VERSION (Windows 10, Windows 11, etc)
+    SET YOUR EXECUTION POLICY TO "UNRESTRICTED", THEN TRY OPENING THE SCRIPT AGAIN
+
+2c. If you get an error/warning about something 'not being recognized as a valid command' or whatever
+    - Make sure the path to your tool doesnt have folders that contain spaces or special characters in their names (See the WARNINGS section)
+     
+3. If it's still not working, you probably...MESSED WITH THE AMAZING SPIDERMAN!!!! DON'T DO THAT!!!     
