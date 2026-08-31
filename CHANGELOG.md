@@ -199,6 +199,20 @@ UPDATE 1.0.0 (08-26-2026)
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+UPDATE 1.0.0b (08-30-2026)
+### 
+
+### For General
+- Adjusted `z2_DoubleClickMe_SDKT_MT.bat` to work more reliably
+
+### For SDKT
+- Renamed `z1_RunMeInPowershell_SMT_MT.ps1` to `z1_RunMeInPowershell_SDKT_MT.ps1`, as it was intended to be named
+- Added auto-download (if missing) of `z2_DoubleClickMe_SDKT_MT.bat` upon script startup
+- Added `z2_DoubleClickMe_SDKT_MT.bat` to Option U download list
+  - `z2_DoubleClickMe_SDKT_MT.bat` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MT/blob/main/z2_DoubleClickMe_SDKT_MT.bat
+  
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 ### 
 
